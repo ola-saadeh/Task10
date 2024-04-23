@@ -47,3 +47,13 @@ button {
         background-color: #4562a0;
     }
 }
+
+
+
+.shape-container {
+    background-color: #f5deb3; /* لون الخلفية */
+    padding: 20px; /* هامش داخلي لتبديل التباعد */
+    border-radius: 5px; /* تحديد زوايا مستديرة */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* تظليل للبارز */
+    text-align: center; /* محاذاة النص في المركز */
+}

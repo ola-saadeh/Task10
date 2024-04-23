@@ -8,12 +8,37 @@
 </head>
 <body>
     <div class="container">
-        <h2>Change Shape Color</h2>
-        <div>
-            <input type="text" id="colorValue" placeholder="Enter your color">
-            <button id="changeColor">Change Color</button>
+        <h2>Change Shape and Color</h2>
+        <div class="container1">
+        <div class="select1">
+            <label for="shapeSelect">Select Shape:</label>
+            <select id="shapeSelect">
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+                <option value="triangle">Triangle</option>
+                <option value="oval">Oval</option>
+                
+            </select>
+            <br><br>
+            <label for="colorSelect">Select Color:</label>
+            <select id="colorSelect">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="Coral">Coral</option>
+                <option value="Cyan">Cyan</option>
+                
+                
+            </select>
+            <br>
+            <br>
+            <br>
+            <button id="changeShapeColor">Change Shape and Color</button>
+        </div >
+    </div>
+        <div class="shape-container"><div id="shape"></div><p id="shapeText">choose shape</id=></div>
+        
         </div>
-        <div id="shape"></div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
